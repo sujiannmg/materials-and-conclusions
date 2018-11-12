@@ -1,2 +1,2 @@
 # materials-and-conclusions
-学习资料及总结
+学习资料总结
