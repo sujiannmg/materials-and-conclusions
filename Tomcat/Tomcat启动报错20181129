@@ -1,0 +1,8 @@
+错误日志：如图错误日志20181129.png
+错因：Servlet mapping specifies an unknown servlet name pring-mvc-sms-webapp
+解决方法：
+    <servlet-mapping>
+        <servlet-name>spring-mvc-sms-webapp</servlet-name>
+        <url-pattern>/sms/*</url-pattern>
+    </servlet-mapping>
+    由于自己粗心将spring-mvc-sms-webapp写错导致错误发生。
